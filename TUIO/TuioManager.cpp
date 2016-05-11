@@ -157,7 +157,7 @@ TuioCursor* TuioManager::addTuioCursor(float x, float y) {
 
 void TuioManager::addExternalTuioCursor(TuioCursor *tcur) {
 	if (tcur==NULL) return;
-	tcur->setSessionID(sessionID++);
+	//tcur->setSessionID(sessionID++);
 	cursorList.push_back(tcur);
 	updateCursor = true;
 
