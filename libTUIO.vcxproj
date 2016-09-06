@@ -48,7 +48,7 @@
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>D:\build\Shipping\ObjectTracking</OutDir>
+    <OutDir>C:\build\Shipping\ObjectTracking</OutDir>
     <IntDir>Release\libTUIO\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
