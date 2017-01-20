@@ -26,10 +26,6 @@ int tcp_connect(int socket, const struct sockaddr *address, socklen_t address_le
 	return connect(socket, address, address_len);
 }
 
-#ifdef WIN32
-typedef	DWORD int32_t;
-#endif
-
 #ifndef  WIN32
 static void* ClientThreadFunc( void* obj )
 #else

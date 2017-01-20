@@ -18,12 +18,6 @@
 
 #include "TcpSender.h"
 
-#ifdef  WIN32
-#ifndef int32_t
-typedef DWORD int32_t;
-#endif
-#endif
-
 using namespace TUIO;
 
 #ifndef  WIN32
