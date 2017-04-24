@@ -245,6 +245,7 @@ void TuioManager::removeTuioCursor(TuioCursor *tcur) {
 
 void TuioManager::removeExternalTuioCursor(TuioCursor *tcur) {
 	if (tcur==NULL) return;
+	if ((std::find(cursorList.begin(), cursorList.end(), tcur) == cursorList.end()))return;
 	cursorList.remove(tcur);
 	updateCursor = true;
 
