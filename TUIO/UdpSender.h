@@ -19,8 +19,8 @@
 #ifndef INCLUDED_UDPSENDER_H
 #define INCLUDED_UDPSENDER_H
 
-#include "OscSender.h"
-#include "ip/UdpSocket.h"
+#include <TUIO/OscSender.h>
+#include <oscpack/ip/UdpSocket.h>
 
 #define IP_MTU_SIZE 1500
 #define MAX_UDP_SIZE 4096

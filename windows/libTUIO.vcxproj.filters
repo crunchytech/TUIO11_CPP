@@ -21,6 +21,12 @@
     <Filter Include="Source Files\oscpack">
       <UniqueIdentifier>{0c065277-7b8c-440c-ac07-7c4ff909c319}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\oscpack\ip">
+      <UniqueIdentifier>{bda5f62a-797e-49d7-a47c-edca27aa0215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\oscpack\osc">
+      <UniqueIdentifier>{9d074cb5-3017-425b-9551-76ca9309c2a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TUIO\FlashSender.h">
@@ -86,29 +92,29 @@
     <ClInclude Include="..\TUIO\WebSockSender.h">
       <Filter>Header Files\TUIO</Filter>
     </ClInclude>
-    <ClInclude Include="..\oscpack\osc\OscException.h">
-      <Filter>Header Files\oscpack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\oscpack\osc\OscHostEndianness.h">
-      <Filter>Header Files\oscpack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\oscpack\osc\OscOutboundPacketStream.h">
-      <Filter>Header Files\oscpack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\oscpack\osc\OscPacketListener.h">
-      <Filter>Header Files\oscpack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\oscpack\osc\OscTypes.h">
-      <Filter>Header Files\oscpack</Filter>
-    </ClInclude>
     <ClInclude Include="..\oscpack\ip\NetworkingUtils.h">
-      <Filter>Header Files\oscpack</Filter>
+      <Filter>Header Files\oscpack\ip</Filter>
     </ClInclude>
     <ClInclude Include="..\oscpack\ip\TimerListener.h">
-      <Filter>Header Files\oscpack</Filter>
+      <Filter>Header Files\oscpack\ip</Filter>
     </ClInclude>
     <ClInclude Include="..\oscpack\ip\UdpSocket.h">
-      <Filter>Header Files\oscpack</Filter>
+      <Filter>Header Files\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oscpack\osc\OscHostEndianness.h">
+      <Filter>Header Files\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Header Files\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oscpack\osc\OscPacketListener.h">
+      <Filter>Header Files\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oscpack\osc\OscTypes.h">
+      <Filter>Header Files\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\oscpack\osc\OscException.h">
+      <Filter>Header Files\oscpack\osc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

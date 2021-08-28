@@ -19,8 +19,8 @@
 #ifndef INCLUDED_UDPRECEIVER_H
 #define INCLUDED_UDPRECEIVER_H
 
-#include "OscReceiver.h"
-#include "ip/UdpSocket.h"
+#include <TUIO/OscReceiver.h>
+#include <oscpack/ip/UdpSocket.h>
 
 namespace TUIO {
 	

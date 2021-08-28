@@ -20,12 +20,12 @@
 #define INCLUDED_OSCRECEIVER_H
 
 #include "LibExport.h"
-#include "TuioClient.h"
+#include <TUIO\TuioClient.h>
 
-#include "osc/OscReceivedElements.h"
-#include "osc/OscHostEndianness.h"
-#include "ip/PacketListener.h"
-#include "ip/IpEndpointName.h"
+#include <oscpack/osc/OscReceivedElements.h>
+#include <oscpack/osc/OscHostEndianness.h>
+#include <oscpack/ip/PacketListener.h>
+#include <oscpack/ip/IpEndpointName.h>
 
 namespace TUIO {
 

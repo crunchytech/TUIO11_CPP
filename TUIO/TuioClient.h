@@ -19,9 +19,9 @@
 #ifndef INCLUDED_TUIOCLIENT_H
 #define INCLUDED_TUIOCLIENT_H
 
-#include "TuioDispatcher.h"
-#include "OscReceiver.h"
-#include "osc/OscReceivedElements.h"
+#include <TUIO\TuioDispatcher.h>
+#include <TUIO\OscReceiver.h>
+#include <oscpack/osc/OscReceivedElements.h>
 
 #include <iostream>
 #include <list>

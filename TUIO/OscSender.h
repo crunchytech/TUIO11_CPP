@@ -20,9 +20,11 @@
 #define INCLUDED_OSCSENDER_H
 
 #include "LibExport.h"
-#include "osc/OscOutboundPacketStream.h"
-#include "osc/OscHostEndianness.h"
-#include "ip/NetworkingUtils.h"
+
+
+#include <oscpack/osc/OscOutboundPacketStream.h>
+#include <oscpack/osc/OscHostEndianness.h>
+#include <oscpack/ip/NetworkingUtils.h>
 #include <iostream>
 #include <cstring>
 
